@@ -11,7 +11,7 @@ You can download the "NuGet.exe Command Line Tool" from the [release page](https
 ## Restore packages from the build script
 
 Modify your build script and add **RestorePackages()** near the beginning of the script.
-This will use the default parameters to retrieve all NuGet packages specified in *"./\*\*/packages.config"* files.
+This will use NuGet with the default parameters to retrieve the packages specified in *"./\*\*/packages.config"* files.
 
 If you need to use different parameters please use the [RestorePackage](apidocs/fake-restorepackagehelper.html) task directly.
 
